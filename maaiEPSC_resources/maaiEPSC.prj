@@ -1,0 +1,65 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="/Users/maaike/Library/Mobile Documents/com~apple~CloudDocs/MATLAB/maaiEPSC.prj" location="/Users/maaike/Library/Mobile Documents/com~apple~CloudDocs/MATLAB" name="maaiEPSC" target="target.mlapps" target-name="Package App">
+    <param.appname>maaiEPSC</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon>${PROJECT_ROOT}/maaiEPSC_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/maaiEPSC_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/maaiEPSC_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/maaiEPSC_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary />
+    <param.description />
+    <param.screenshot>/private/var/folders/6z/8hqbjmf923q49k1xhjns0yhw0000gn/T/tp5023c698_3c28_495a_90bf_092d1c7f07f2.png</param.screenshot>
+    <param.version>1.1</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>90554fcf-e295-4711-b224-18c3ca4f1f03</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/maaiEPSC.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/maaike/Library/Mobile Documents/com~apple~CloudDocs" name="MATLAB" optional="false">/Users/maaike/Library/Mobile Documents/com~apple~CloudDocs/MATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2020b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.15.7</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
